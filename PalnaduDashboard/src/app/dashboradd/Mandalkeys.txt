@@ -1,0 +1,1698 @@
+{
+    "Mandal": "Achampeta",
+    "data": [
+        {
+            "Madalkey": "M1-1"
+        },
+        {
+            "Madalkey": "M1-10"
+        },
+        {
+            "Madalkey": "M1-11"
+        },
+        {
+            "Madalkey": "M1-12"
+        },
+        {
+            "Madalkey": "M1-13"
+        },
+        {
+            "Madalkey": "M1-14"
+        },
+        {
+            "Madalkey": "M1-15"
+        },
+        {
+            "Madalkey": "M1-16"
+        },
+        {
+            "Madalkey": "M1-17"
+        },
+        {
+            "Madalkey": "M1-2"
+        },
+        {
+            "Madalkey": "M1-3"
+        },
+        {
+            "Madalkey": "M1-4"
+        },
+        {
+            "Madalkey": "M1-5"
+        },
+        {
+            "Madalkey": "M1-6"
+        },
+        {
+            "Madalkey": "M1-7"
+        },
+        {
+            "Madalkey": "M1-8"
+        },
+        {
+            "Madalkey": "M1-9"
+        }
+    ]
+} 
+
+{
+    "Mandal": "Amaravati",
+    "data": [
+        {
+            "Madalkey": "M2-1"
+        },
+        {
+            "Madalkey": "M2-10"
+        },
+        {
+            "Madalkey": "M2-11"
+        },
+        {
+            "Madalkey": "M2-12"
+        },
+        {
+            "Madalkey": "M2-13"
+        },
+        {
+            "Madalkey": "M2-14"
+        },
+        {
+            "Madalkey": "M2-15"
+        },
+        {
+            "Madalkey": "M2-16"
+        },
+        {
+            "Madalkey": "M2-2"
+        },
+        {
+            "Madalkey": "M2-3"
+        },
+        {
+            "Madalkey": "M2-4"
+        },
+        {
+            "Madalkey": "M2-5"
+        },
+        {
+            "Madalkey": "M2-6"
+        },
+        {
+            "Madalkey": "M2-7"
+        },
+        {
+            "Madalkey": "M2-8"
+        },
+        {
+            "Madalkey": "M2-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Bellamkonda",
+    "data": [
+        {
+            "Madalkey": "M3-1"
+        },
+        {
+            "Madalkey": "M3-10"
+        },
+        {
+            "Madalkey": "M3-2"
+        },
+        {
+            "Madalkey": "M3-3"
+        },
+        {
+            "Madalkey": "M3-4"
+        },
+        {
+            "Madalkey": "M3-5"
+        },
+        {
+            "Madalkey": "M3-6"
+        },
+        {
+            "Madalkey": "M3-7"
+        },
+        {
+            "Madalkey": "M3-8"
+        },
+        {
+            "Madalkey": "M3-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Bollapalli",
+    "data": [
+        {
+            "Madalkey": "M4-1"
+        },
+        {
+            "Madalkey": "M4-10"
+        },
+        {
+            "Madalkey": "M4-11"
+        },
+        {
+            "Madalkey": "M4-12"
+        },
+        {
+            "Madalkey": "M4-13"
+        },
+        {
+            "Madalkey": "M4-14"
+        },
+        {
+            "Madalkey": "M4-15"
+        },
+        {
+            "Madalkey": "M4-16"
+        },
+        {
+            "Madalkey": "M4-17"
+        },
+        {
+            "Madalkey": "M4-2"
+        },
+        {
+            "Madalkey": "M4-3"
+        },
+        {
+            "Madalkey": "M4-4"
+        },
+        {
+            "Madalkey": "M4-5"
+        },
+        {
+            "Madalkey": "M4-6"
+        },
+        {
+            "Madalkey": "M4-7"
+        },
+        {
+            "Madalkey": "M4-8"
+        },
+        {
+            "Madalkey": "M4-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Chilakaluripet",
+    "data": [
+        {
+            "Madalkey": "M5-1"
+        },
+        {
+            "Madalkey": "M5-10"
+        },
+        {
+            "Madalkey": "M5-11"
+        },
+        {
+            "Madalkey": "M5-12"
+        },
+        {
+            "Madalkey": "M5-13"
+        },
+        {
+            "Madalkey": "M5-14"
+        },
+        {
+            "Madalkey": "M5-15"
+        },
+        {
+            "Madalkey": "M5-16"
+        },
+        {
+            "Madalkey": "M5-17"
+        },
+        {
+            "Madalkey": "M5-18"
+        },
+        {
+            "Madalkey": "M5-19"
+        },
+        {
+            "Madalkey": "M5-2"
+        },
+        {
+            "Madalkey": "M5-20"
+        },
+        {
+            "Madalkey": "M5-21"
+        },
+        {
+            "Madalkey": "M5-22"
+        },
+        {
+            "Madalkey": "M5-23"
+        },
+        {
+            "Madalkey": "M5-24"
+        },
+        {
+            "Madalkey": "M5-25"
+        },
+        {
+            "Madalkey": "M5-26"
+        },
+        {
+            "Madalkey": "M5-27"
+        },
+        {
+            "Madalkey": "M5-28"
+        },
+        {
+            "Madalkey": "M5-29"
+        },
+        {
+            "Madalkey": "M5-3"
+        },
+        {
+            "Madalkey": "M5-30"
+        },
+        {
+            "Madalkey": "M5-31"
+        },
+        {
+            "Madalkey": "M5-32"
+        },
+        {
+            "Madalkey": "M5-33"
+        },
+        {
+            "Madalkey": "M5-34"
+        },
+        {
+            "Madalkey": "M5-35"
+        },
+        {
+            "Madalkey": "M5-36"
+        },
+        {
+            "Madalkey": "M5-37"
+        },
+        {
+            "Madalkey": "M5-38"
+        },
+        {
+            "Madalkey": "M5-39"
+        },
+        {
+            "Madalkey": "M5-4"
+        },
+        {
+            "Madalkey": "M5-40"
+        },
+        {
+            "Madalkey": "M5-41"
+        },
+        {
+            "Madalkey": "M5-42"
+        },
+        {
+            "Madalkey": "M5-43"
+        },
+        {
+            "Madalkey": "M5-44"
+        },
+        {
+            "Madalkey": "M5-5"
+        },
+        {
+            "Madalkey": "M5-6"
+        },
+        {
+            "Madalkey": "M5-7"
+        },
+        {
+            "Madalkey": "M5-8"
+        },
+        {
+            "Madalkey": "M5-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Dachepalli",
+    "data": [
+        {
+            "Madalkey": "M6-1"
+        },
+        {
+            "Madalkey": "M6-10"
+        },
+        {
+            "Madalkey": "M6-11"
+        },
+        {
+            "Madalkey": "M6-12"
+        },
+        {
+            "Madalkey": "M6-13"
+        },
+        {
+            "Madalkey": "M6-14"
+        },
+        {
+            "Madalkey": "M6-15"
+        },
+        {
+            "Madalkey": "M6-2"
+        },
+        {
+            "Madalkey": "M6-3"
+        },
+        {
+            "Madalkey": "M6-4"
+        },
+        {
+            "Madalkey": "M6-5"
+        },
+        {
+            "Madalkey": "M6-6"
+        },
+        {
+            "Madalkey": "M6-7"
+        },
+        {
+            "Madalkey": "M6-8"
+        },
+        {
+            "Madalkey": "M6-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Durgi",
+    "data": [
+        {
+            "Madalkey": "M7-1"
+        },
+        {
+            "Madalkey": "M7-10"
+        },
+        {
+            "Madalkey": "M7-11"
+        },
+        {
+            "Madalkey": "M7-2"
+        },
+        {
+            "Madalkey": "M7-3"
+        },
+        {
+            "Madalkey": "M7-4"
+        },
+        {
+            "Madalkey": "M7-5"
+        },
+        {
+            "Madalkey": "M7-6"
+        },
+        {
+            "Madalkey": "M7-7"
+        },
+        {
+            "Madalkey": "M7-8"
+        },
+        {
+            "Madalkey": "M7-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Edlapadu",
+    "data": [
+        {
+            "Madalkey": "M8-1"
+        },
+        {
+            "Madalkey": "M8-10"
+        },
+        {
+            "Madalkey": "M8-11"
+        },
+        {
+            "Madalkey": "M8-12"
+        },
+        {
+            "Madalkey": "M8-2"
+        },
+        {
+            "Madalkey": "M8-3"
+        },
+        {
+            "Madalkey": "M8-4"
+        },
+        {
+            "Madalkey": "M8-5"
+        },
+        {
+            "Madalkey": "M8-6"
+        },
+        {
+            "Madalkey": "M8-7"
+        },
+        {
+            "Madalkey": "M8-8"
+        },
+        {
+            "Madalkey": "M8-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Gurazala",
+    "data": [
+        {
+            "Madalkey": "M9-1"
+        },
+        {
+            "Madalkey": "M9-10"
+        },
+        {
+            "Madalkey": "M9-11"
+        },
+        {
+            "Madalkey": "M9-12"
+        },
+        {
+            "Madalkey": "M9-13"
+        },
+        {
+            "Madalkey": "M9-14"
+        },
+        {
+            "Madalkey": "M9-15"
+        },
+        {
+            "Madalkey": "M9-16"
+        },
+        {
+            "Madalkey": "M9-17"
+        },
+        {
+            "Madalkey": "M9-18"
+        },
+        {
+            "Madalkey": "M9-2"
+        },
+        {
+            "Madalkey": "M9-3"
+        },
+        {
+            "Madalkey": "M9-4"
+        },
+        {
+            "Madalkey": "M9-5"
+        },
+        {
+            "Madalkey": "M9-6"
+        },
+        {
+            "Madalkey": "M9-7"
+        },
+        {
+            "Madalkey": "M9-8"
+        },
+        {
+            "Madalkey": "M9-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Ipuru",
+    "data": [
+        {
+            "Madalkey": "M10-1"
+        },
+        {
+            "Madalkey": "M10-10"
+        },
+        {
+            "Madalkey": "M10-11"
+        },
+        {
+            "Madalkey": "M10-12"
+        },
+        {
+            "Madalkey": "M10-2"
+        },
+        {
+            "Madalkey": "M10-3"
+        },
+        {
+            "Madalkey": "M10-4"
+        },
+        {
+            "Madalkey": "M10-5"
+        },
+        {
+            "Madalkey": "M10-6"
+        },
+        {
+            "Madalkey": "M10-7"
+        },
+        {
+            "Madalkey": "M10-8"
+        },
+        {
+            "Madalkey": "M10-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Karempudi",
+    "data": [
+        {
+            "Madalkey": "M11-1"
+        },
+        {
+            "Madalkey": "M11-10"
+        },
+        {
+            "Madalkey": "M11-11"
+        },
+        {
+            "Madalkey": "M11-12"
+        },
+        {
+            "Madalkey": "M11-2"
+        },
+        {
+            "Madalkey": "M11-3"
+        },
+        {
+            "Madalkey": "M11-4"
+        },
+        {
+            "Madalkey": "M11-5"
+        },
+        {
+            "Madalkey": "M11-6"
+        },
+        {
+            "Madalkey": "M11-7"
+        },
+        {
+            "Madalkey": "M11-8"
+        },
+        {
+            "Madalkey": "M11-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Krosuru",
+    "data": [
+        {
+            "Madalkey": "M12-1"
+        },
+        {
+            "Madalkey": "M12-10"
+        },
+        {
+            "Madalkey": "M12-11"
+        },
+        {
+            "Madalkey": "M12-12"
+        },
+        {
+            "Madalkey": "M12-13"
+        },
+        {
+            "Madalkey": "M12-14"
+        },
+        {
+            "Madalkey": "M12-15"
+        },
+        {
+            "Madalkey": "M12-2"
+        },
+        {
+            "Madalkey": "M12-3"
+        },
+        {
+            "Madalkey": "M12-4"
+        },
+        {
+            "Madalkey": "M12-5"
+        },
+        {
+            "Madalkey": "M12-6"
+        },
+        {
+            "Madalkey": "M12-7"
+        },
+        {
+            "Madalkey": "M12-8"
+        },
+        {
+            "Madalkey": "M12-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Machavaram",
+    "data": [
+        {
+            "Madalkey": "M13-1"
+        },
+        {
+            "Madalkey": "M13-10"
+        },
+        {
+            "Madalkey": "M13-11"
+        },
+        {
+            "Madalkey": "M13-12"
+        },
+        {
+            "Madalkey": "M13-13"
+        },
+        {
+            "Madalkey": "M13-14"
+        },
+        {
+            "Madalkey": "M13-15"
+        },
+        {
+            "Madalkey": "M13-2"
+        },
+        {
+            "Madalkey": "M13-3"
+        },
+        {
+            "Madalkey": "M13-4"
+        },
+        {
+            "Madalkey": "M13-5"
+        },
+        {
+            "Madalkey": "M13-6"
+        },
+        {
+            "Madalkey": "M13-7"
+        },
+        {
+            "Madalkey": "M13-8"
+        },
+        {
+            "Madalkey": "M13-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Macherla",
+    "data": [
+        {
+            "Madalkey": "M14-1"
+        },
+        {
+            "Madalkey": "M14-10"
+        },
+        {
+            "Madalkey": "M14-11"
+        },
+        {
+            "Madalkey": "M14-12"
+        },
+        {
+            "Madalkey": "M14-13"
+        },
+        {
+            "Madalkey": "M14-14"
+        },
+        {
+            "Madalkey": "M14-15"
+        },
+        {
+            "Madalkey": "M14-16"
+        },
+        {
+            "Madalkey": "M14-17"
+        },
+        {
+            "Madalkey": "M14-18"
+        },
+        {
+            "Madalkey": "M14-19"
+        },
+        {
+            "Madalkey": "M14-2"
+        },
+        {
+            "Madalkey": "M14-20"
+        },
+        {
+            "Madalkey": "M14-21"
+        },
+        {
+            "Madalkey": "M14-22"
+        },
+        {
+            "Madalkey": "M14-23"
+        },
+        {
+            "Madalkey": "M14-24"
+        },
+        {
+            "Madalkey": "M14-25"
+        },
+        {
+            "Madalkey": "M14-26"
+        },
+        {
+            "Madalkey": "M14-27"
+        },
+        {
+            "Madalkey": "M14-28"
+        },
+        {
+            "Madalkey": "M14-29"
+        },
+        {
+            "Madalkey": "M14-3"
+        },
+        {
+            "Madalkey": "M14-30"
+        },
+        {
+            "Madalkey": "M14-31"
+        },
+        {
+            "Madalkey": "M14-4"
+        },
+        {
+            "Madalkey": "M14-5"
+        },
+        {
+            "Madalkey": "M14-6"
+        },
+        {
+            "Madalkey": "M14-7"
+        },
+        {
+            "Madalkey": "M14-8"
+        },
+        {
+            "Madalkey": "M14-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Muppalla",
+    "data": [
+        {
+            "Madalkey": "M14-32"
+        },
+        {
+            "Madalkey": "M14-33"
+        },
+        {
+            "Madalkey": "M14-34"
+        },
+        {
+            "Madalkey": "M14-35"
+        },
+        {
+            "Madalkey": "M14-36"
+        },
+        {
+            "Madalkey": "M14-37"
+        },
+        {
+            "Madalkey": "M14-38"
+        },
+        {
+            "Madalkey": "M14-39"
+        },
+        {
+            "Madalkey": "M14-40"
+        },
+        {
+            "Madalkey": "M14-41"
+        },
+        {
+            "Madalkey": "M14-42"
+        },
+        {
+            "Madalkey": "M14-43"
+        },
+        {
+            "Madalkey": "M14-44"
+        }
+    ]
+} 
+{
+    "Mandal": "Nadendla",
+    "data": [
+        {
+            "Madalkey": "M15-1"
+        },
+        {
+            "Madalkey": "M15-10"
+        },
+        {
+            "Madalkey": "M15-11"
+        },
+        {
+            "Madalkey": "M15-12"
+        },
+        {
+            "Madalkey": "M15-13"
+        },
+        {
+            "Madalkey": "M15-14"
+        },
+        {
+            "Madalkey": "M15-15"
+        },
+        {
+            "Madalkey": "M15-16"
+        },
+        {
+            "Madalkey": "M15-2"
+        },
+        {
+            "Madalkey": "M15-3"
+        },
+        {
+            "Madalkey": "M15-4"
+        },
+        {
+            "Madalkey": "M15-5"
+        },
+        {
+            "Madalkey": "M15-6"
+        },
+        {
+            "Madalkey": "M15-7"
+        },
+        {
+            "Madalkey": "M15-8"
+        },
+        {
+            "Madalkey": "M15-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Narasaraopet",
+    "data": [
+        {
+            "Madalkey": "M16-1"
+        },
+        {
+            "Madalkey": "M16-10"
+        },
+        {
+            "Madalkey": "M16-11"
+        },
+        {
+            "Madalkey": "M16-12"
+        },
+        {
+            "Madalkey": "M16-13"
+        },
+        {
+            "Madalkey": "M16-14"
+        },
+        {
+            "Madalkey": "M16-15"
+        },
+        {
+            "Madalkey": "M16-16"
+        },
+        {
+            "Madalkey": "M16-17"
+        },
+        {
+            "Madalkey": "M16-18"
+        },
+        {
+            "Madalkey": "M16-19"
+        },
+        {
+            "Madalkey": "M16-2"
+        },
+        {
+            "Madalkey": "M16-20"
+        },
+        {
+            "Madalkey": "M16-21"
+        },
+        {
+            "Madalkey": "M16-22"
+        },
+        {
+            "Madalkey": "M16-23"
+        },
+        {
+            "Madalkey": "M16-24"
+        },
+        {
+            "Madalkey": "M16-25"
+        },
+        {
+            "Madalkey": "M16-26"
+        },
+        {
+            "Madalkey": "M16-27"
+        },
+        {
+            "Madalkey": "M16-28"
+        },
+        {
+            "Madalkey": "M16-29"
+        },
+        {
+            "Madalkey": "M16-3"
+        },
+        {
+            "Madalkey": "M16-30"
+        },
+        {
+            "Madalkey": "M16-31"
+        },
+        {
+            "Madalkey": "M16-32"
+        },
+        {
+            "Madalkey": "M16-33"
+        },
+        {
+            "Madalkey": "M16-34"
+        },
+        {
+            "Madalkey": "M16-35"
+        },
+        {
+            "Madalkey": "M16-36"
+        },
+        {
+            "Madalkey": "M16-37"
+        },
+        {
+            "Madalkey": "M16-38"
+        },
+        {
+            "Madalkey": "M16-39"
+        },
+        {
+            "Madalkey": "M16-4"
+        },
+        {
+            "Madalkey": "M16-40"
+        },
+        {
+            "Madalkey": "M16-41"
+        },
+        {
+            "Madalkey": "M16-42"
+        },
+        {
+            "Madalkey": "M16-43"
+        },
+        {
+            "Madalkey": "M16-44"
+        },
+        {
+            "Madalkey": "M16-45"
+        },
+        {
+            "Madalkey": "M16-46"
+        },
+        {
+            "Madalkey": "M16-47"
+        },
+        {
+            "Madalkey": "M16-48"
+        },
+        {
+            "Madalkey": "M16-49"
+        },
+        {
+            "Madalkey": "M16-5"
+        },
+        {
+            "Madalkey": "M16-50"
+        },
+        {
+            "Madalkey": "M16-51"
+        },
+        {
+            "Madalkey": "M16-52"
+        },
+        {
+            "Madalkey": "M16-53"
+        },
+        {
+            "Madalkey": "M16-54"
+        },
+        {
+            "Madalkey": "M16-55"
+        },
+        {
+            "Madalkey": "M16-56"
+        },
+        {
+            "Madalkey": "M16-57"
+        },
+        {
+            "Madalkey": "M16-58"
+        },
+        {
+            "Madalkey": "M16-6"
+        },
+        {
+            "Madalkey": "M16-7"
+        },
+        {
+            "Madalkey": "M16-8"
+        },
+        {
+            "Madalkey": "M16-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Nekarikallu",
+    "data": [
+        {
+            "Madalkey": "M17-1"
+        },
+        {
+            "Madalkey": "M17-10"
+        },
+        {
+            "Madalkey": "M17-11"
+        },
+        {
+            "Madalkey": "M17-12"
+        },
+        {
+            "Madalkey": "M17-13"
+        },
+        {
+            "Madalkey": "M17-14"
+        },
+        {
+            "Madalkey": "M17-2"
+        },
+        {
+            "Madalkey": "M17-3"
+        },
+        {
+            "Madalkey": "M17-4"
+        },
+        {
+            "Madalkey": "M17-5"
+        },
+        {
+            "Madalkey": "M17-6"
+        },
+        {
+            "Madalkey": "M17-7"
+        },
+        {
+            "Madalkey": "M17-8"
+        },
+        {
+            "Madalkey": "M17-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Nuzendla",
+    "data": [
+        {
+            "Madalkey": "M18-1"
+        },
+        {
+            "Madalkey": "M18-10"
+        },
+        {
+            "Madalkey": "M18-11"
+        },
+        {
+            "Madalkey": "M18-12"
+        },
+        {
+            "Madalkey": "M18-13"
+        },
+        {
+            "Madalkey": "M18-14"
+        },
+        {
+            "Madalkey": "M18-15"
+        },
+        {
+            "Madalkey": "M18-2"
+        },
+        {
+            "Madalkey": "M18-3"
+        },
+        {
+            "Madalkey": "M18-4"
+        },
+        {
+            "Madalkey": "M18-5"
+        },
+        {
+            "Madalkey": "M18-6"
+        },
+        {
+            "Madalkey": "M18-7"
+        },
+        {
+            "Madalkey": "M18-8"
+        },
+        {
+            "Madalkey": "M18-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Pedakurapadu",
+    "data": [
+        {
+            "Madalkey": "M19-1"
+        },
+        {
+            "Madalkey": "M19-10"
+        },
+        {
+            "Madalkey": "M19-11"
+        },
+        {
+            "Madalkey": "M19-12"
+        },
+        {
+            "Madalkey": "M19-13"
+        },
+        {
+            "Madalkey": "M19-14"
+        },
+        {
+            "Madalkey": "M19-2"
+        },
+        {
+            "Madalkey": "M19-3"
+        },
+        {
+            "Madalkey": "M19-4"
+        },
+        {
+            "Madalkey": "M19-5"
+        },
+        {
+            "Madalkey": "M19-6"
+        },
+        {
+            "Madalkey": "M19-7"
+        },
+        {
+            "Madalkey": "M19-8"
+        },
+        {
+            "Madalkey": "M19-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Piduguralla",
+    "data": [
+        {
+            "Madalkey": "M20-1"
+        },
+        {
+            "Madalkey": "M20-10"
+        },
+        {
+            "Madalkey": "M20-11"
+        },
+        {
+            "Madalkey": "M20-12"
+        },
+        {
+            "Madalkey": "M20-13"
+        },
+        {
+            "Madalkey": "M20-14"
+        },
+        {
+            "Madalkey": "M20-15"
+        },
+        {
+            "Madalkey": "M20-16"
+        },
+        {
+            "Madalkey": "M20-17"
+        },
+        {
+            "Madalkey": "M20-18"
+        },
+        {
+            "Madalkey": "M20-19"
+        },
+        {
+            "Madalkey": "M20-2"
+        },
+        {
+            "Madalkey": "M20-20"
+        },
+        {
+            "Madalkey": "M20-21"
+        },
+        {
+            "Madalkey": "M20-22"
+        },
+        {
+            "Madalkey": "M20-23"
+        },
+        {
+            "Madalkey": "M20-24"
+        },
+        {
+            "Madalkey": "M20-25"
+        },
+        {
+            "Madalkey": "M20-26"
+        },
+        {
+            "Madalkey": "M20-27"
+        },
+        {
+            "Madalkey": "M20-28"
+        },
+        {
+            "Madalkey": "M20-29"
+        },
+        {
+            "Madalkey": "M20-3"
+        },
+        {
+            "Madalkey": "M20-30"
+        },
+        {
+            "Madalkey": "M20-31"
+        },
+        {
+            "Madalkey": "M20-32"
+        },
+        {
+            "Madalkey": "M20-4"
+        },
+        {
+            "Madalkey": "M20-5"
+        },
+        {
+            "Madalkey": "M20-6"
+        },
+        {
+            "Madalkey": "M20-7"
+        },
+        {
+            "Madalkey": "M20-8"
+        },
+        {
+            "Madalkey": "M20-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Rajupalem",
+    "data": [
+        {
+            "Madalkey": "M21-1"
+        },
+        {
+            "Madalkey": "M21-10"
+        },
+        {
+            "Madalkey": "M21-11"
+        },
+        {
+            "Madalkey": "M21-12"
+        },
+        {
+            "Madalkey": "M21-13"
+        },
+        {
+            "Madalkey": "M21-14"
+        },
+        {
+            "Madalkey": "M21-2"
+        },
+        {
+            "Madalkey": "M21-3"
+        },
+        {
+            "Madalkey": "M21-4"
+        },
+        {
+            "Madalkey": "M21-5"
+        },
+        {
+            "Madalkey": "M21-6"
+        },
+        {
+            "Madalkey": "M21-7"
+        },
+        {
+            "Madalkey": "M21-8"
+        },
+        {
+            "Madalkey": "M21-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Rentachintala",
+    "data": [
+        {
+            "Madalkey": "M22-1"
+        },
+        {
+            "Madalkey": "M22-10"
+        },
+        {
+            "Madalkey": "M22-11"
+        },
+        {
+            "Madalkey": "M22-12"
+        },
+        {
+            "Madalkey": "M22-13"
+        },
+        {
+            "Madalkey": "M22-2"
+        },
+        {
+            "Madalkey": "M22-3"
+        },
+        {
+            "Madalkey": "M22-4"
+        },
+        {
+            "Madalkey": "M22-5"
+        },
+        {
+            "Madalkey": "M22-6"
+        },
+        {
+            "Madalkey": "M22-7"
+        },
+        {
+            "Madalkey": "M22-8"
+        },
+        {
+            "Madalkey": "M22-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Rompicherla",
+    "data": [
+        {
+            "Madalkey": "M23-1"
+        },
+        {
+            "Madalkey": "M23-10"
+        },
+        {
+            "Madalkey": "M23-11"
+        },
+        {
+            "Madalkey": "M23-12"
+        },
+        {
+            "Madalkey": "M23-13"
+        },
+        {
+            "Madalkey": "M23-14"
+        },
+        {
+            "Madalkey": "M23-15"
+        },
+        {
+            "Madalkey": "M23-16"
+        },
+        {
+            "Madalkey": "M23-17"
+        },
+        {
+            "Madalkey": "M23-18"
+        },
+        {
+            "Madalkey": "M23-2"
+        },
+        {
+            "Madalkey": "M23-3"
+        },
+        {
+            "Madalkey": "M23-4"
+        },
+        {
+            "Madalkey": "M23-5"
+        },
+        {
+            "Madalkey": "M23-6"
+        },
+        {
+            "Madalkey": "M23-7"
+        },
+        {
+            "Madalkey": "M23-8"
+        },
+        {
+            "Madalkey": "M23-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Sattenapalle",
+    "data": [
+        {
+            "Madalkey": "M24-1"
+        },
+        {
+            "Madalkey": "M24-10"
+        },
+        {
+            "Madalkey": "M24-11"
+        },
+        {
+            "Madalkey": "M24-12"
+        },
+        {
+            "Madalkey": "M24-13"
+        },
+        {
+            "Madalkey": "M24-14"
+        },
+        {
+            "Madalkey": "M24-15"
+        },
+        {
+            "Madalkey": "M24-2"
+        },
+        {
+            "Madalkey": "M24-3"
+        },
+        {
+            "Madalkey": "M24-4"
+        },
+        {
+            "Madalkey": "M24-5"
+        },
+        {
+            "Madalkey": "M24-6"
+        },
+        {
+            "Madalkey": "M24-7"
+        },
+        {
+            "Madalkey": "M24-8"
+        },
+        {
+            "Madalkey": "M24-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Savalyapuram",
+    "data": [
+        {
+            "Madalkey": "M25-1"
+        },
+        {
+            "Madalkey": "M25-10"
+        },
+        {
+            "Madalkey": "M25-11"
+        },
+        {
+            "Madalkey": "M25-2"
+        },
+        {
+            "Madalkey": "M25-3"
+        },
+        {
+            "Madalkey": "M25-4"
+        },
+        {
+            "Madalkey": "M25-5"
+        },
+        {
+            "Madalkey": "M25-6"
+        },
+        {
+            "Madalkey": "M25-7"
+        },
+        {
+            "Madalkey": "M25-8"
+        },
+        {
+            "Madalkey": "M25-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Veldurthy",
+    "data": [
+        {
+            "Madalkey": "M26-1"
+        },
+        {
+            "Madalkey": "M26-10"
+        },
+        {
+            "Madalkey": "M26-11"
+        },
+        {
+            "Madalkey": "M26-12"
+        },
+        {
+            "Madalkey": "M26-13"
+        },
+        {
+            "Madalkey": "M26-14"
+        },
+        {
+            "Madalkey": "M26-2"
+        },
+        {
+            "Madalkey": "M26-3"
+        },
+        {
+            "Madalkey": "M26-4"
+        },
+        {
+            "Madalkey": "M26-5"
+        },
+        {
+            "Madalkey": "M26-6"
+        },
+        {
+            "Madalkey": "M26-7"
+        },
+        {
+            "Madalkey": "M26-8"
+        },
+        {
+            "Madalkey": "M26-9"
+        }
+    ]
+} 
+{
+    "Mandal": "Vinukonda",
+    "data": [
+        {
+            "Madalkey": "M27-1"
+        },
+        {
+            "Madalkey": "M27-10"
+        },
+        {
+            "Madalkey": "M27-11"
+        },
+        {
+            "Madalkey": "M27-12"
+        },
+        {
+            "Madalkey": "M27-13"
+        },
+        {
+            "Madalkey": "M27-14"
+        },
+        {
+            "Madalkey": "M27-15"
+        },
+        {
+            "Madalkey": "M27-16"
+        },
+        {
+            "Madalkey": "M27-17"
+        },
+        {
+            "Madalkey": "M27-18"
+        },
+        {
+            "Madalkey": "M27-19"
+        },
+        {
+            "Madalkey": "M27-2"
+        },
+        {
+            "Madalkey": "M27-20"
+        },
+        {
+            "Madalkey": "M27-21"
+        },
+        {
+            "Madalkey": "M27-22"
+        },
+        {
+            "Madalkey": "M27-23"
+        },
+        {
+            "Madalkey": "M27-24"
+        },
+        {
+            "Madalkey": "M27-25"
+        },
+        {
+            "Madalkey": "M27-26"
+        },
+        {
+            "Madalkey": "M27-27"
+        },
+        {
+            "Madalkey": "M27-3"
+        },
+        {
+            "Madalkey": "M27-4"
+        },
+        {
+            "Madalkey": "M27-5"
+        },
+        {
+            "Madalkey": "M27-6"
+        },
+        {
+            "Madalkey": "M27-7"
+        },
+        {
+            "Madalkey": "M27-8"
+        },
+        {
+            "Madalkey": "M27-9"
+        }
+    ]
+}

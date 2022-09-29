@@ -1,0 +1,554 @@
+<div class="body">
+<div class="ch-navbar">
+  <img src="../../assets/images/Logo.jpeg" alt="">
+  <p>Government of Andhra Pradesh</p>
+</div>
+<div class="super-form">
+  <form name="form" #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+    <p class="text-center text-primary">Child Labour</p>
+    <div class="main p-3 d-flex w-100">
+      <!-- Form Start -->
+  
+  
+  
+  
+  
+      <!-- Name -->
+      <div class="center m-1">
+        <div class="Name text-left text-muted w-40 m-0 mr-1">
+          <label>Name</label><br>
+          <div class="text-danger" *ngIf="Name.invalid && Name.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" minlength="3" maxlength="30" class="form-control w-60" #Name="ngModel" ngModel name="Name"
+          required placeholder="Enter Your Name">
+      </div>
+      <!-- Name End -->
+  
+  
+  
+  
+  
+      <!-- Age -->
+      <div class="center m-1">
+        <div class="Age text-left text-muted w-40 m-0 mr-1">
+          <label>Age</label><br>
+          <div class="text-danger" *ngIf="Age.invalid && Age.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" class="form-control w-60" #Age="ngModel" ngModel name="Age" required placeholder="Enter Your Age">
+      </div>
+      <!-- Age End -->
+  
+  
+  
+  
+      <!-- Gender -->
+      <div class="center m-1">
+        <div class="Gender text-left text-muted w-40 m-0 mr-1">
+          <label class="">Gender</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="w-60 d-flex Gender">
+          <input required type="radio" ngModel name="Gender" value="Male" id="GenderMale" class="btn-check mx-2">
+          <label for="GenderMale" class="btn btn-outline-primary mr-2">Male</label>
+          <input required type="radio" ngModel name="Gender" value="Female" id="GenderFemale" class="btn-check mx-2">
+          <label for="GenderFemale" class="btn btn-outline-primary mx-2">Female</label>
+          <input required type="radio" ngModel name="Gender" value="Other" id="GenderOther" class="btn-check mx-2">
+          <label for="GenderOther" class="btn btn-outline-primary ml-2">Other</label>
+        </div>
+      </div>
+      <!-- Gender  -->
+  
+  
+  
+  
+  
+  
+      <!-- Father Name -->
+      <div class="center m-1">
+        <div class="Father_Name text-left text-muted w-40 m-0 mr-1">
+          <label>Father Name</label><br>
+          <div class="text-danger" *ngIf="Father_Name.invalid && Father_Name.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" minlength="3" maxlength="30" class="form-control w-60" #Father_Name="ngModel" ngModel
+          name="Father_Name" required placeholder="Enter Father Name">
+      </div>
+      <!-- Father Name End -->
+  
+  
+  
+  
+  
+      <!-- Mother Name -->
+      <div class="center m-1">
+        <div class="Mother_Name text-left text-muted w-40 m-0 mr-1">
+          <label>Mother Name</label><br>
+          <div class="text-danger" *ngIf="Mother_Name.invalid && Mother_Name.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" minlength="3" maxlength="30" class="form-control w-60" #Mother_Name="ngModel" ngModel
+          name="Mother_Name" required placeholder="Enter Mother Name">
+      </div>
+      <!-- Mother Name end -->
+  
+  
+  
+  
+  
+  
+      <!-- Guardian -->
+      <div class="center m-1">
+        <div class="Guardian text-left text-muted w-40 m-0 mr-1">
+          <label>Guardian Name</label><br>
+          <div class="text-danger" *ngIf="Guardian.invalid && Guardian.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>  
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" minlength="3" maxlength="30" class="form-control w-60" #Guardian="ngModel" ngModel
+          name="Guardian" required placeholder="Enter Guardian Name">
+      </div>
+      <!-- Guardian End -->
+  
+  
+  
+  
+  
+  
+  
+      <!-- Father Occupation -->
+      <div class="center m-1">
+        <div class="Father_Work text-left text-muted w-40 m-0 mr-1">
+          <label>Father Occuption</label><br>
+          <div class="text-danger" *ngIf="Father_Work.invalid && Father_Work.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60">
+          <select class="form-select" #Father_Work="ngModel" ngModel name="Father_Work" required>
+            <option value="Labour">Labour</option>
+            <option value="House_Hold">House hold</option>
+            <option value="Working_in_hotels">Working in hotels</option>
+            <option value="Labour_Field_work">Field work</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+      </div>
+      <!-- Father Occupation End -->
+  
+  
+  
+  
+  
+      <!-- Mother Occupation -->
+      <div class="center m-1">
+        <div class="Mother_Work text-left text-muted w-40 m-0 mr-1">
+          <label>Mother Occuption</label><br>
+          <div class="text-danger" *ngIf="Mother_Work.invalid && Mother_Work.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60">
+          <select class="form-select" #Mother_Work="ngModel" ngModel name="Mother_Work" required>
+            <option value="Labour">Labour</option>
+            <option value="House_Hold">House hold</option>
+            <option value="Working_in_hotels">Working in hotels</option>
+            <option value="Labour_Field_work">Field work</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+      </div>
+      <!-- Mother Occupation End -->
+  
+  
+  
+  
+  
+      <!-- Cast -->
+      <div class="center m-1">
+        <div class="Cast text-left text-muted w-40 m-0 mr-1">
+          <label>Caste</label><br>
+          <div class="text-danger" *ngIf="Cast.invalid && Cast.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60">
+          <select class="form-select " #Cast="ngModel" ngModel name="Cast" required>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="BC">BC</option>
+            <option value="OC">OC</option>
+          </select>
+        </div>
+      </div>
+      <!-- Cast End -->
+  
+  
+  
+  
+      <!-- Religion -->
+      <div class="center m-1">
+        <div class="Religion text-left text-muted w-40 m-0 mr-1">
+          <label>Religion</label><br>
+          <div class="text-danger" *ngIf="Religion.invalid && Religion.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60">
+          <select class="form-select " #Religion="ngModel" ngModel name="Religion" required>
+            <option value="Hinduism">Hinduism</option>
+            <option value="Islam">Islam</option>
+            <option value="Christainity">Christainity</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+      </div>
+      <!-- Religion End -->
+  
+  
+  
+  
+  
+      <!-- Type of Work -->
+      <div class="center m-1">
+        <div class="Type text-left text-muted w-40 m-0 mr-1">
+          <label>Type of Work</label><br>
+          <div class="text-danger" *ngIf="Type_of_Work.invalid && Type_of_Work.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60">
+          <select class="form-select " #Type_of_Work="ngModel" ngModel name="Type_of_Work" required>
+            <option value="Shop_Pvt">Shop/Pvt Sector</option>
+            <option value="Railway_Station">Railway Station</option>
+            <option value="Hotels">Hotels</option>
+            <option value="Begging">Begging</option>
+            <option value="Brick_Klins">Brick Klins</option>
+            <option value="Factories">Factories</option>
+            <option value="Construction_Works">Construction Works</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+      </div>
+      <!-- Type of Work End -->
+  
+  
+  
+  
+  
+      <!-- School Joined -->
+      <div class="center m-1">
+        <div class="SchoolJoined text-left text-muted w-40 m-0 mr-1">
+          <label class="">School Joined</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex  w-60 join">
+          <input type="radio" required name="SchoolJoined" ngModel id="childYes" value="Joined" (click)="Yes()"
+            class="btn-check mr-2">
+          <label for="childYes" class="btn btn-outline-success mr-2">Yes</label>
+          <input type="radio" required name="SchoolJoined" ngModel id="childNo" value="Not Joined" (click)="No()"
+            class="btn-check mx-2">
+          <label for="childNo" class="btn btn-outline-danger mx-2">No</label>
+        </div>
+      </div>
+      <!-- School Joined End -->
+  
+  
+  
+  
+  
+      <!-- Studied class -->
+      <div class="center m-1" *ngIf="Child">
+        <label class="text-left text-muted w-40 m-0 mr-1">Studied Class</label>
+        <div class="mx-3">:</div>
+        <input class="form-control w-60" type="text" ngModel name="StudiedClass" placeholder="Studied Class">
+      </div>
+      <!-- Studied Class End -->
+  
+  
+  
+  
+  
+  
+      <!-- Class to be admitted -->
+      <div class="center m-1">
+        <div class="Class text-left text-muted w-40 m-0 mr-1">
+          <label> Class to be admitted </label><br>
+          <div class="text-danger" *ngIf="ClasstobeAdmitted.invalid &&  ClasstobeAdmitted.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" class="form-control w-60" #ClasstobeAdmitted="ngModel" ngModel name="ClasstobeAdmitted"
+          required placeholder=" Class to be admitted ">
+      </div>
+      <!-- Class to be admitted End -->
+  
+  
+  
+  
+  
+  
+  
+      <!-- Nearest School -->
+      <div class="center m-1">
+        <div class="NearestSchool text-left text-muted w-40 m-0 mr-1">
+          <label>Nearest School</label><br>
+          <div class="text-danger" *ngIf="NearestSchool.invalid && NearestSchool.touched">
+            <sup>*</sup>Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <input type="text" minlength="6" maxlength="30" class="form-control w-60" #NearestSchool="ngModel" ngModel
+          name="Nearest_School" required placeholder="Nearest School">
+      </div>
+      <!-- Nearest School End -->
+  
+  
+  
+  
+  
+      <!-- School Address -->
+      <div class="center m-1">
+        <div class="SchoolAddress text-left text-muted w-40 m-0 mr-1">
+          <label>School Address</label><br>
+          <div class="text-danger" *ngIf="SchoolAddress.invalid && SchoolAddress.touched">
+            <sup>*</sup> Give a Valid Value
+          </div>
+        </div>
+        <div class="mx-3">:</div>
+        <textarea row="20" cols="25" minlength="10" maxlength="100" class="form-control w-60 txt-area" #SchoolAddress="ngModel"
+          ngModel name="SchoolAddress" required>
+        </textarea>
+      </div>
+      <!-- School Address End -->
+  
+  
+  
+  
+  
+  
+  
+      <!-- Lively Hood  -->
+      <div class="center m-1">
+        <div class="LivingRequirement text-left text-muted w-40 m-0 mr-1">
+          <label class="">Lively Hood Requirement</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex w-60 join">
+          <input type="radio" name="LivingRequirements" ngModel value="Needed" id="LivingYes"
+            class="btn-check mr-2" required>
+          <label  for="LivingYes" class="btn btn-outline-success mr-2">Yes</label>
+          <input type="radio" ngModel name="LivingRequirements" value="Not Needed" id="LivingNo"
+            class="btn-check mx-2 d-block" required>
+          <label for="LivingNo" class="btn btn-outline-danger mx-2">No</label>
+        </div>
+      </div>
+      <!-- Lively Hood End -->
+
+      <!-- Aadhar -->
+      <div class="center m-1">
+        <div class="aadhar text-left text-muted w-40 m-0 mr-1">
+          <label class="">Aadhar</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="Aadhar" id="chkYes" class="btn-check mr-2" [value]="form.value.Aadhar"
+            (click)="AAdharYes()">
+          <label for="chkYes" class="btn btn-outline-success mr-2">Yes</label>
+          <input type="radio" required ngModel name="Aadhar" id="chkNo" class="btn-check mx-2" value="No"
+            (click)="AAdharNo()">
+          <label for="chkNo" class="btn btn-outline-danger mx-2">No</label>
+        </div>
+      </div>
+      <!-- Aadhar End -->
+  
+  
+  
+  
+  
+  
+      <!-- Aadhar Number -->
+      <div id="dvAadhar" *ngIf="aadhar">
+        <div class="center m-1">
+          <div class="text-left text-muted w-40 m-0 mr-1">
+          <label class="">Aadhar Number</label><br>
+          <p class="text-danger" *ngIf="AadharNumber.invalid && AadharNumber.touched"><sup>*</sup>Give a Valid Value</p>
+        </div>
+          <div class="mx-3">:</div>
+          <div class="d-flex  w-60">
+            <input type="text" class="form-control" placeholder="Aadhar Number" ngModel name="Aadhar" required maxlength="15" #AadharNumber="ngModel">
+          </div>
+        </div>
+      </div>
+      <!-- AAdhar Number End -->
+  
+  
+  
+  
+  
+      <!-- Ration Card -->
+      <div class="center m-1">
+        <div class="Ration text-left text-muted w-40 m-0 mr-1">
+          <label class="">Ration Card</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="Ration" [value]="form.value.RationCardNumber" id="RationYes" class="btn-check mr-2" (click)="RationYes()">
+          <label for="RationYes" class="btn btn-outline-success mr-2">Yes</label>
+          <input required type="radio" ngModel name="Ration" value="Not having Ration" id="RationNo" (click)="RationNo()"
+            class="btn-check mx-2">
+          <label class="btn btn-outline-danger mx-2" for="RationNo">No</label>
+        </div>
+      </div>
+      <!-- Ration Card End -->
+      <!-- Ration Card Number -->
+      <div class="center m-1" *ngIf="RationCardNumber">
+        <div class="RationNummber text-left text-muted w-40 m-0 mr-1">
+          <label class="RationCardNumber">Ration Number </label><br>
+          <p class="text-danger" *ngIf="RationCardNumber.invalid && RationCardNumber.touched">Give a Valid Value</p>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex w-60">
+          <input type="text" class="form-control" name="Ration" placeholder="Ration Number" id="RationCardNumber" ngModel #RationCardNumber="ngModel" required minlength="10" maxlength="10">
+        </div>
+      </div>
+      <!-- Ration Card Number End -->
+  
+  
+  
+  
+  
+  
+      <!-- Handy Capped  -->
+      <div class="center m-1">
+        <div class="Physicallyhandycapped text-left text-muted w-40 m-0 mr-1">
+          <label class="">Physically <br> Handycapped</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="Physicallyhandycapped" value="Yes" id="PhysicallyhandycappedYes"
+            class="btn-check mr-2">
+          <label class="btn btn-outline-success mr-2" for="PhysicallyhandycappedYes">Yes</label>
+          <input type="radio" required ngModel name="Physicallyhandycapped" value="No" id="PhysicallyhandycappedNo"
+            class="btn-check mx-2"><label class="btn btn-outline-danger mx-2" for="PhysicallyhandycappedNo">No</label>
+        </div>
+      </div>
+      <!-- Handy Capped End -->
+  
+  
+  
+  
+      <!-- Mentally Retired -->
+      <div class="center m-1">
+        <div class="MentallyRetired text-left text-muted w-40 m-0 mr-1">
+          <label class="">Mentally Retired</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="MentallyRetired" value="Yes" id="MentallyRetiredYes"
+            class="btn-check mr-2"><label class="btn btn-outline-success mr-2" for="MentallyRetiredYes">Yes</label>
+          <input type="radio" required ngModel name="MentallyRetired" value="No" id="MentallyRetiredNo"
+            class="btn-check mx-2"><label class="btn btn-outline-danger mx-2" for="MentallyRetiredNo">No</label>
+        </div>
+      </div>
+      <!-- Mentally Retired End -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <!-- Deaf and Dumb -->
+      <div class="center m-1">
+        <div class="DeafandDumb text-left text-muted w-40 m-0 mr-1">
+          <label class="">Deaf and Dumb</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="DeafandDumb" value="Yes" id="DeafandDumbYes" class="btn-check mr-2">
+          <label class="btn btn-outline-success mr-2" for="DeafandDumbYes">Yes</label>
+          <input type="radio" required ngModel name="DeafandDumb" value="No" id="DeafandDumbNo"
+            class="btn-check mx-2"><label class="btn btn-outline-danger mx-2" for="DeafandDumbNo">No</label>
+        </div>
+      </div>
+      <!-- Deaf And Dumb End -->
+  
+  
+  
+  
+  
+      <!-- Inherited Disabilities -->
+      <div class="center m-1">
+        <div class="InheritedDisabilities text-left text-muted w-40 m-0 mr-1">
+          <label class="">Inherited Disabilities</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="InheritedDisabilities" value="Yes" id="InheritedDisabilitiesYes"
+            class="btn-check mr-2">
+            <label class="btn btn-outline-success mr-2" for="InheritedDisabilitiesYes">Yes</label>
+          <input type="radio" required ngModel name="InheritedDisabilities" value="No" id="InheritedDisabilitiesNo"
+            class="btn-check mx-2">
+            <label class="btn btn-outline-danger mx-2" for="InheritedDisabilitiesNo">No</label>
+        </div>
+      </div>
+      <!-- Inherited Disabilities End -->
+  
+  
+  
+  
+  
+  
+  
+      <!-- Poverty and Malnutration -->
+      <div class="center m-1">
+        <div class="PovertyandMalnutration text-left text-muted w-40 m-0 mr-1">
+          <label class="">Poverty and Malnutration</label><br>
+        </div>
+        <div class="mx-3">:</div>
+        <div class="d-flex join w-60">
+          <input type="radio" required ngModel name="PovertyandMalnutration" value="Yes" id="PovertyandMalnutrationYes"
+            class="btn-check mr-2">
+          <label class="btn btn-outline-success mr-2" for="PovertyandMalnutrationYes">Yes</label>
+          <input type="radio" required ngModel name="PovertyandMalnutration" value="No" id="PovertyandMalnutrationNo"
+            class="btn-check mx-2">
+          <label class="btn btn-outline-danger mx-2" for="PovertyandMalnutrationNo">No</label>
+        </div>
+      </div>
+      <!-- Poverty and Malnutration End  -->
+  
+  
+  
+  
+  
+  
+    </div>
+  
+    <div class="mx-auto center m-5 flex-direction-column">
+      <input type="submit" class="btn btn-primary my-1" id="submit" value="Submit" [disabled]="form.invalid" *ngIf="!reset">
+      <p class="alert alert-success m-2" *ngIf="reset">Your Unique Id is:{{Uniqueid}}</p><br>
+      <p class="alert alert-danger m-2" *ngIf="InsertErr">Please submit the form again</p><br>
+      <button class="btn btn-success my-1" (click)="Reset(form)" *ngIf="reset">Reset</button>
+    </div>
+  </form>
+</div>
+</div>

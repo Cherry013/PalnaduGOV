@@ -1,0 +1,20 @@
+.logo {
+    height: 100px;
+    width: 90px;
+}
+
+.Ploc {
+    font-size: 19px;
+}
+.Iloc {
+    font-size: 15px;
+}
+.list-group a:hover{
+    background-color: #198754fb;
+    color: var(--bs-white);
+    transition: 0.2s;
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+}

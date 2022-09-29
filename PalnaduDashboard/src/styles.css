@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Roboto+Mono:wght@500&display=swap');
+
+.w-10 {
+    width: 200px;
+}
+.r-30{
+    border-radius: 30%;
+}
+.overflow-hidden {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.r-50 {
+    border-radius: 50%;
+}
+
+.wh-150 {
+    height: 150px;
+    width: 200px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Roboto {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Noto {
+    font-family: 'Noto Sans Buhid', sans-serif;
+}

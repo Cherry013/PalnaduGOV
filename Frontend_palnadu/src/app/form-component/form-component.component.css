@@ -1,0 +1,157 @@
+
+.btn-check:focus+.btn,
+.btn:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main{
+    flex-direction: column;
+    width:10%;
+}
+ 
+.w-15{
+    width:15%;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.body{
+    flex-direction: column;
+}
+
+.Gender .btn-outline-success,.Gender .btn-outline-danger{
+    padding: 6px 7%;
+}
+.join .btn-outline-success , .join .btn-outline-danger{
+    padding: 6px 10%;
+}
+
+@media (max-width: 480px)
+{
+    .card{
+        width:75%;
+        font-size: 12px;
+    }
+}
+@media (max-width: 930px){
+    .w-75{
+        width:50%;
+    }
+    .w-15{
+        width:25%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    background: url("../../assets/images/circles-bg.png");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ch-navbar{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.ch-navbar img{
+    width: 60px;
+    border-radius: 50%;
+}
+.ch-navbar p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.super-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 10px;
+    background: white;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+form > p{
+    color: red;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    text-transform: uppercase;
+
+
+}
+form input[type="text"]{
+    border: 1px solid black;
+}
+.radio-yes{
+    border: 1px solid green;
+    color: green;
+    background: white;
+}
+.radio-yes:hover{
+    color: white;
+    background: green;
+}
+.radio-no{
+    border: 1px solid red;
+    color: red;
+    background: white;
+}
+.radio-no:hover{
+    color: white;
+    background: red;
+}
+.radio-gender{
+    border: 1px solid rgb(43, 98, 248);
+    color: rgb(43, 98, 248);
+}
+.radio-gender:hover{
+    background: rgb(43, 98, 248);
+    color: white;
+}
+
+.form-select{
+    border: 1px solid;
+}
+
+.txt-area{
+    border: 1px solid;
+}
