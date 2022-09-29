@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    background: url("../../assets/images/Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    padding: 20px 90px;
+}
+.navbar img{
+    width: 70px;
+    border-radius: 50%;
+}
+.navbar .nav{
+    padding-left: 20px;
+}
+.navbar .nav p{
+    font-size: 20px;
+    color: black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.super-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{    
+    background-color: #fff;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.container h1{
+    font-size: 50px;
+    color: rgb(84, 181, 255);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+.input-text{
+    width: 250px;
+    height: 40px;
+    padding: 5px 20px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.check{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type="submit"]{
+    margin-top: 30px;
+    height: 50px;
+    width: 310px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(84, 181, 255);
+    letter-spacing: 3px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .navbar .img img{
+        display: none;
+    }
+    .navbar .nav{
+        padding: 0;
+    }
+    .navbar .nav p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container{
+        box-shadow: none;
+    }
+}

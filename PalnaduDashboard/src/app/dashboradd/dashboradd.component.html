@@ -1,0 +1,70 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto px-0 overflow-scroll">
+            <app-sidebar (Senddata)="taking($event)"></app-sidebar>
+        </div>
+        <main class="col ps-md-2 pt-2">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid d-flex justify-content-space-between align-items-center">
+                    <a (click)="Toggle()" data-bs-target="#sidebar" data-bs-toggle="collapse"
+                        class="cbtn border rounded-3 p-1 text-decoration-none float-right px-2"><i
+                            [class]="Right"></i></a>
+                    <div class="govt">Street Children Information of <span class="text-capitalize font-weight-bold text-danger">{{this.MandalName}}</span></div>
+                    <div class="userdetails center">
+                        <div class="user center r-50 border border-warning"></div>
+                    </div>
+                </div>
+
+            </nav>
+                <div class="p-1 w-100 my-3 d-flex justify-content-evenly align-items-center">
+                    <div class="card mx-1  TotalCount center border border-danger text-white my-2 bg-danger">
+                        <p class="m-0 ">{{Total_Count}}</p>
+                        <span class="m-0 Noto">Total Records</span>
+                    </div>
+                    <div class="card mx-1 center TotalCount border border-cyan text-white my-2 bg-cyan">
+                        <p class="m-0 ">{{Todays_Count}}</p>
+                        <span class="m-0 Noto">Todays Records</span>
+                    </div>
+                </div>
+
+            <div class="p-1 w-100 my-3 grid">
+                <div class="card mx-1 wh-150 center border  border-primary text-white my-2 bg-primary" (click)="filterdata('Begging')">
+                    <p class="m-0" >{{Begging}}</p>
+                    <span class="m-0 Noto">Begging</span>
+                </div>
+                <div (click)="filterdata('Hotels')" class="card mx-1 wh-150 center border border-2 border-primary text-white my-2 bg-primary">
+                    <p class="m-0 ">{{Hotels}}</p>
+                    <span class="m-0 Noto">Working at Hotel</span>
+                </div>
+                <div (click)="filterdata('Shop_Pvt')" class="card mx-1  wh-150 center border border-warning text-white my-2 bg-warning">
+                    <p class="m-0 ">{{pvt}}</p>
+                    <span class="m-0 Noto text-center">Shop/PVT sector</span>
+                </div>
+                <div (click)="filterdata('Railway_Station')" class="card mx-1  wh-150 center border border-success text-white my-2 bg-success">
+                    <p class="m-0 ">{{rail}}</p>
+                    <span class="m-0 Noto">Railway Station</span>
+                </div>
+                <div (click)="filterdata('Brick_klins')" class="card mx-1  wh-150 center border border-danger text-white my-2 bg-danger">
+                    <p class="m-0 ">{{brick}}</p>
+                    <span class="m-0 Noto">Brick klins</span>
+                </div>
+                <div (click)="filterdata('Factories')" class="card mx-1  wh-150 center border border-pink text-white my-2 bg-pink">
+                    <p class="m-0 ">{{Factories}}</p>
+                    <span class="m-0 Noto">Factories</span>
+                </div>
+                <div (click)="filterdata('Construction_Works')" class="card mx-1  wh-150 center border border-primary text-white my-2 bg-primary">
+                    <p class="m-0 ">{{Construction}}</p>
+                    <span class="m-0 Noto">Construction Workers</span>
+                </div>
+                <div (click)="filterdata('others')" class="card mx-1  wh-150 center border border-warning text-white my-2 bg-warning">
+                    <p class="m-0 ">{{other}}</p>
+                    <span class="m-0 Noto">Others</span>
+                </div>
+
+            </div>
+
+            <hr>
+            <app-tables [items]="items" [filterddata]="childvariable"></app-tables>
+        </main>
+    </div>
+</div>
