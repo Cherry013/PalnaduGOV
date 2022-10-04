@@ -26,4 +26,6 @@ export class InsertService {
     // return this.http.post("http://192.168.137.31:3000/InsertData/Details",data, { headers: this.headers })
 
   }
+
+
 }

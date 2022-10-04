@@ -24,4 +24,16 @@ export class GetvaluesService {
     return this.http.post("http://localhost:3000/getdata/Mandal/Presised/", MandalAndPresized);
     // return this.http.post("http://192.168.137.31:3000/getdata/Mandal/Presised/", MandalAndPresized);
   }
+  getPresisedvaluesBydate(MandalAndPresized: {}): Observable<{}>{
+    return this.http.post("http://localhost:3000/getdata/Mandal/PresisedBydate/", MandalAndPresized);
+  }
+  GetallvaluesBydate(Mandal: String): Observable<{}> {
+    return this.http.get("http://localhost:3000/getdataBydate/" + Mandal + "/");
+
+  }
+  Getindetail(data: Object):Observable<{}> {
+    return this.http.post("http://localhost:3000/Getdata/Getindetail",data, { headers: this.headers })
+    // return this.http.post("http://192.168.137.31:3000/InsertData/Details",data, { headers: this.headers })
+
+  }
 }

@@ -9,7 +9,6 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
 app.use('/',Secratariet);
-app.use('/InsertData', insert)
-
+app.use('/InsertData', insert);
 
 module.exports = app;

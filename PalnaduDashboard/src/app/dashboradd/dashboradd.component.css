@@ -15,13 +15,20 @@ nav i {
     font-size: 20px;
     font-family: 'Noto Sans Buhid', sans-serif;
 }
-.TotalCount{
+
+.TotalCount {
     height: 300px;
     width: 400px;
 }
 
 .card.border-primary {
     box-shadow: -7px 8px 27px -11px var(--bs-primary);
+    transition: all 2s;
+    cursor: pointer;
+    text-align: center;
+}
+.card.border-orange {
+    box-shadow: -7px 8px 27px -11px var(--bs-orange);
     transition: all 2s;
     cursor: pointer;
     text-align: center;
@@ -48,7 +55,9 @@ nav i {
 .card.border-primary:hover {
     box-shadow: 12px -8px 27px -11px var(--bs-primary);
 }
-
+.card.border-orange:hover {
+    box-shadow: 12px -8px 27px -11px var(--bs-orange);
+}
 .card.border-warning:hover {
     box-shadow: 12px -8px 27px -11px var(--bs-warning);
 }
@@ -88,6 +97,11 @@ nav i {
     box-shadow: 12px -8px 27px -11px var(--bs-teal);
 }
 
+.card.border-cyan:hover {
+    box-shadow: 12px -8px 27px -11px var(--bs-cyan);
+}
+
+
 .card.border-teal {
     box-shadow: -7px 8px 27px -11px var(--bs-teal);
     transition: all 2s;
@@ -118,17 +132,25 @@ nav i {
 .border-pink {
     border: 1px solid var(--bs-pink) !important;
 }
+
 .bg-teal {
 
     background-color: var(--bs-teal) !important;
+}
+
+.bg-orange {
+
+    background-color: var(--bs-orange) !important;
 }
 .bg-purple {
 
     background-color: var(--bs-purple) !important;
 }
+
 .card.border-teal {
     border: 1px solid var(--bs-teal) !important;
 }
+
 .card.border-teal {
     box-shadow: -7px 8px 27px -11px var(--bs-teal);
     transition: all 2s;
@@ -136,9 +158,18 @@ nav i {
 }
 .card.border-purple {
     border: 1px solid var(--bs-purple) !important;
+    box-shadow: -7px 8px 27px -11px var(--bs-purple); 
+    transition: all 2s;
+    cursor: pointer; 
 }
-.card.border-purple {
-    box-shadow: -7px 8px 27px -11px var(--bs-purple);
+.card.border-cyan{
+    border: 1px solid var(--bs-cyan) !important;
+}
+.card.border-orange{
+    border: 1px solid var(--bs-orange) !important;
+}
+.card.border-cyan {
+    box-shadow: -7px 8px 27px -11px var(--bs-cyan);
     transition: all 2s;
     cursor: pointer;
 }
@@ -147,12 +178,14 @@ nav i {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 25px;
+    place-items: center;
 }
 
-.border-pink {
+.card.border-pink {
     border: 1px solid var(--bs-pink);
     outline: none;
 }
+
 .form-control {
     width: 100%;
 }
@@ -170,12 +203,14 @@ nav i {
         width: 200px;
         height: 150px;
     }
-    
+    .card.border-orange {
+        width: 200px;
+        height: 150px;
+    }
     .card.border-warning {
         width: 200px;
         height: 150px;
     }
-    
     .card.border-success {
         width: 200px;
         height: 150px;
@@ -184,12 +219,17 @@ nav i {
         width: 200px;
         height: 150px;
     }
-    
+
     .card.border-danger {
         width: 200px;
         height: 150px;
     }
+
     .card.border-pink {
+        width: 200px;
+        height: 150px;
+    }
+    .card.border-cyan {
         width: 200px;
         height: 150px;
     }
@@ -208,22 +248,30 @@ nav i {
         width: 160px;
         height: 120px;
     }
-    
+    .card.border-orange {
+        width: 160px;
+        height: 120px;
+    }
     .card.border-warning {
         width: 160px;
         height: 120px;
     }
-    
+
     .card.border-success {
         width: 160px;
         height: 120px;
     }
-    
+
     .card.border-danger {
         width: 160px;
         height: 120px;
     }
+
     .card.border-pink {
+        width: 160px;
+        height: 120px;
+    }
+    .card.border-cyan {
         width: 160px;
         height: 120px;
     }
@@ -242,22 +290,32 @@ nav i {
         width: 155px;
         height: 125px;
     }
-    
+
     .card.border-warning {
         width: 155px;
         height: 125px;
     }
-    
+
     .card.border-success {
         width: 155px;
         height: 125px;
     }
-    
+
+    .card.border-cyan {
+        width: 155px;
+        height: 125px;
+    }
+
     .card.border-danger {
         width: 155px;
         height: 125px;
     }
+
     .card.border-pink {
+        width: 155px;
+        height: 125px;
+    }
+    .card.border-orange {
         width: 155px;
         height: 125px;
     }
