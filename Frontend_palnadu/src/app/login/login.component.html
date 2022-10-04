@@ -20,10 +20,12 @@
             
                 </div>
                 <div class="field">
-                    <input type="password" id="password" class="input-text" placeholder="Password" [(ngModel)]="Password">
-                </div>
+                    <input [type]="ShowPassword?'text':'password'" id="password" class="input-text" placeholder="Password" [(ngModel)]="Password">
+                </div> 
                 <div class="check">
-                    <input type="checkbox">show passoword
+                    
+                    <input type="checkbox" id="checkbox" [(ngModel)]="ShowPassword">
+                    <label for="checkbox">Show password</label>
                 </div>
                 <input type="submit" (click)="login()" value="Login"><br>
             </div>

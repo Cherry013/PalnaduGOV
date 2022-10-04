@@ -12,76 +12,76 @@ Router.post('/Details', (req, res) => {
             res.send(err);
         }
         else {
-            Details = Object.assign(Details, result[0]);
-            Connection_to_Work = `SELECT AUTO_INCREMENT AS Connection_to_Work FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'palnadudistict' AND TABLE_NAME = 'primarydetails'`;
-            connection.query(Connection_to_Work, (err, result) => {
+            const randomUnique = (range, count) => {
+                let nums = new Set();
+                while (nums.size < count) {
+                    nums.add(Math.floor(Math.random() * (range - 1 + 1) + 1));
+                }
+                return [...nums];
+            }
+            const UniqueNumber = randomUnique(1000000, 1);
+            date = new Date();
+            date = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+            Object.assign(Details, result[0]);
+            PrimaryDetails = `INSERT INTO PrimaryDetails VALUES(${UniqueNumber[0]},'${Details.Name}','${Details.Age}','${Details.Father_Name}','${Details.Mother_Name}','${Details.Guardian}','${Details.Gender}','${Details.Mandal_Key}', '${date}')`;
+            connection.query(PrimaryDetails, (err, result) => {
                 if (err) {
-                    res.send(err)
+                    res.send({
+                        err: err,
+                        Message: "Failed at Primary Details" + UniqueNumber[0]
+                    })
                 }
                 else {
-                    Details = Object.assign(Details, result[0]);
-                    PrimaryDetails = `INSERT INTO PrimaryDetails VALUES(${Details.Connection_to_Work},'${Details.Name}','${Details.Age}','${Details.Father_Name}','${Details.Mother_Name}','${Details.Guardian}','${Details.Gender}','${Details.Mandal_Key}', current_timestamp())`;
-                    connection.query(PrimaryDetails, (err, result) => {
+                    WorkDetails = `INSERT INTO WorkDetails VALUES('${Details.Father_Work}','${Details.Mother_Work}','${Details.Cast}','${Details.Religion}','${Details.Type_of_Work}','${Details.Mandal_Key}',${UniqueNumber[0]})`
+                    connection.query(WorkDetails, (err, result) => {
                         if (err) {
                             res.send({
                                 err: err,
-                                Message: "Failed at Primary Details"
+                                Message: "Failed at Work Details" + UniqueNumber[0]
                             })
                         }
                         else {
-                            WorkDetails = `INSERT INTO WorkDetails VALUES('${Details.Father_Work}','${Details.Mother_Work}','${Details.Cast}','${Details.Religion}','${Details.Type_of_Work}','${Details.Mandal_Key}',${Details.Connection_to_Work})`
-                            connection.query(WorkDetails, (err, result) => {
+                            StudyDetails = `INSERT INTO  studydetails VALUES('${Details.Mandal_Key}','${Details.SchoolJoined}','${Details.StudiedClass}','${Details.ClasstobeAdmitted}','${Details.Nearest_School}',${UniqueNumber[0]},'${Details.SchoolAddress}')`;
+                            connection.query(StudyDetails, (err, result) => {
                                 if (err) {
                                     res.send({
                                         err: err,
-                                        Message: "Failed at Work Details"
+                                        Message: "Failed at Study Details" + UniqueNumber[0]
                                     })
                                 }
                                 else {
-                                    StudyDetails = `INSERT INTO  studydetails VALUES('${Details.Mandal_Key}','${Details.SchoolJoined}','${Details.StudiedClass}','${Details.ClasstobeAdmitted}','${Details.Nearest_School}',${Details.Connection_to_Work},'${Details.SchoolAddress}')`;
-                                    connection.query(StudyDetails, (err, result) => {
+                                    disabilityDetails = `INSERT INTO disability VALUES(${UniqueNumber[0]},'${Details.Mandal_Key}','${Details.MentallyRetired}','${Details.DeafandDumb}','${Details.InheritedDisabilities}','${Details.PovertyandMalnutration}','${Details.Physicallyhandycapped}')`;
+                                    connection.query(disabilityDetails, (err, result) => {
                                         if (err) {
                                             res.send({
                                                 err: err,
-                                                Message: "Failed at Study Details"
+                                                Message: "Failed at disability Details" + UniqueNumber[0]
                                             })
                                         }
                                         else {
-                                            disabilityDetails = `INSERT INTO disability VALUES(${Details.Connection_to_Work},'${Details.Mandal_Key}','${Details.MentallyRetired}','${Details.DeafandDumb}','${Details.InheritedDisabilities}','${Details.PovertyandMalnutration}','${Details.Physicallyhandycapped}')`;
-                                            connection.query(disabilityDetails, (err, result) => {
+                                            RequirementsDetails = `INSERT INTO requirementsdetails VALUES('${Details.Ration}','${Details.Aadhar}','${Details.LivingRequirements}','${Details.Mandal_Key}',${UniqueNumber[0]})`;
+                                            connection.query(RequirementsDetails, (err, result) => {
                                                 if (err) {
                                                     res.send({
                                                         err: err,
-                                                        Message: "Failed at disability Details"
+                                                        Message: "Failed at requirements Details" + UniqueNumber[0]
                                                     })
                                                 }
                                                 else {
-                                                    RequirementsDetails = `INSERT INTO requirementsdetails VALUES('${Details.Ration}','${Details.Aadhar}','${Details.LivingRequirements}','${Details.Mandal_Key}',${Details.Connection_to_Work})`;
-                                                    connection.query(RequirementsDetails, (err, result) => {
-                                                        if (err) {
-                                                            res.send({
-                                                                err: err,
-                                                                Message: "Failed at requirements Details"
-                                                            })
-                                                        }
-                                                        else {
-                                                           res.send({
-                                                            Message: "All the records are recorded successfully.",
-                                                            UniqueIdOfthePerson: Details.Connection_to_Work
-                                                        })
-                                                        }
-                                                    });
+                                                    res.send({
+                                                        Message: "All the records are recorded successfully.",
+                                                        UniqueIdOfthePerson: UniqueNumber[0]
+                                                    })
                                                 }
-                                            })
+                                            });
                                         }
-                                    });
+                                    })
                                 }
                             });
                         }
                     });
                 }
             });
-
         }
     });
 });

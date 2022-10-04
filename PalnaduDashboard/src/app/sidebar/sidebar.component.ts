@@ -10,6 +10,7 @@ export class SidebarComponent implements OnInit {
   @Input() clicked = "";
   @Output() Senddata = new EventEmitter<{Mandal:string,MandalName:String}>();
   ngOnInit(): void {
+    this.changeClass('palnadu','palnadu');
   }
   changeClass(value: string,MandalName:String){
     this.Senddata.emit({Mandal:value,MandalName:MandalName});

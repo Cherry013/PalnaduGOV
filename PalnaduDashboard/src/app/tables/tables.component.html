@@ -1,67 +1,141 @@
 <div class="d-flex justify-content-center align-items-center w-100">
 </div>
 
-  
-<table class="table table-striped table-light">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Age</th>
-            <th scope="col">Gender</th>
-            <th scope="col">Father Name</th>
-            <th scope="col">Mother Name</th>
-            <th scope="col">Guardian</th>
-            <th scope="col">Religion</th>
-            <th scope="col">Working As</th>
-            <th>In detail</th>
 
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let item of items">
-            <th scope="row">{{item.Connection_to_Work}}</th>
-            <td>{{item.Name}}</td>
-            <td>{{item.Age}}</td>
-            <td>{{item.Gender}}</td>
-            <td>{{item.Father_Name}}</td>
-            <td>{{item.Mother_Name}}</td>
-            <td>{{item.Guardian}}</td>
-            <td>{{item.Religion}}</td>
-            <td>{{item.Type_of_Work}}</td>
-            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    (click)="Getalldetails(item.Connection_to_Work)">Get more
-                    details</button></td>
-        </tr>
-    </tbody>
+<table class="table table-striped table-light">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Father Name</th>
+      <th scope="col">Mother Name</th>
+      <th scope="col">Guardian</th>
+      <th scope="col">Religion</th>
+      <th scope="col">Working As</th>
+      <th scope="col">Date</th>
+      <th>In detail</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items">
+      <th scope="row">{{item.Connection_to_Work}}</th>
+      <td>{{item.Name}}</td>
+      <td>{{item.Age}}</td>
+      <td>{{item.Gender}}</td>
+      <td>{{item.Father_Name}}</td>
+      <td>{{item.Mother_Name}}</td>
+      <td>{{item.Guardian}}</td>
+      <td>{{item.Religion}}</td>
+      <td>{{item.Type_of_Work}}</td>
+      <td>{{item.Date}}</td>
+      <td><button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          (click)="Getalldetails(item.Connection_to_Work)">Get more
+          details</button></td>
+    </tr>
+  </tbody>
 </table>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">{{details.Name}}</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Unique ID</th>
-                    <th scope="row">{{details.Connection_to_Work}}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Name</td>
-                    <td>{{details.Name}}</td>
-                  </tr>
-                  <tr>
-                    <td>Name</td>
-                    <td>{{details.Name}}</td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">{{details.Primraydetails.Name}} <br><sub
+            class="text-success">{{details.Primraydetails.Connection_to_Work}}</sub></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-sm">
+          <thead>
+          </thead>
+          <tbody>
+
+            <tr>
+              <th>Name</th>
+              <td class="bg-danger text-white">{{details.Primraydetails.Name}}</td>
+            </tr>
+            <tr>
+              <th>SECRETARIAT NAME</th>
+              <td class="bg-danger text-white">
+                {{details.SecratariatDetails.SECRETARIAT_NAME}}
+              </td>
+            </tr>
+
+            <!-- <tr>
+              <th>SECRETARIAT NUMBER</th>
+              <td class="bg-danger text-white">{{details.SecratariatDetails.SECRETARIAT_CODE}}</td>
+            </tr> -->
+
+            <tr>
+              <th>Mandal Or ULB</th>
+              <td class="bg-danger text-white">{{details.SecratariatDetails.MANDAL_Or_ULB}}</td>
+            </tr>
+
+
+            
+            <tr>
+              <th>Father Name</th>
+              <td>{{details.Primraydetails.Father_Name}}</td>
+            </tr>
+            <tr>
+              <th>Mother Name</th>
+              <td>{{details.Primraydetails.Mother_Name}}</td>
+            </tr>
+            <tr>
+              <th>Class to be Admitted</th>
+              <td>{{details.Primraydetails.ClasstobeAdmitted}}</td>
+            </tr>
+            <tr>
+              <th>Guardian</th>
+              <td>{{details.Primraydetails.Guardian}}</td>
+            </tr>
+            <tr>
+              <th>Gender</th>
+              <td>{{details.Primraydetails.Gender}}</td>
+            </tr>
+            <tr>
+              <th>Father Work</th>
+              <td class="bg-danger text-white">{{details.Primraydetails.Father_Work}}</td>
+            </tr>
+            <tr>
+              <th>Mother Work</th>
+              <td class="bg-danger text-white">{{details.Primraydetails.Mother_Work}}</td>
+            </tr>
+            <tr>
+              <th>Work of the Child </th>
+              <td  class="bg-danger text-white">{{details.Primraydetails.Type_of_Work}}</td>
+            </tr>
+            <tr>
+              <th>Poverty and Malnutration</th>
+              <td>{{details.Primraydetails.PovertyandMalnutration}}</td>
+            </tr>
+            <tr>
+              <th>Physically Handycapped</th>
+              <td>{{details.Primraydetails.Physicallyhandycapped}}</td>
+            </tr>
+            <tr>
+              <th>Ration</th>
+              <td>{{details.Primraydetails.Ration}}</td>
+            </tr>
+
+            <tr>
+              <th>Aadhar</th>
+              <td>{{details.Primraydetails.Aadhar}}</td>
+            </tr>
+
+
+            <tr>
+              <th>Religion</th>
+              <td>{{details.Primraydetails.Religion}}</td>
+            </tr>
+            <tr>
+              <th>Near By School Address</th>
+              <td>{{details.Primraydetails.SchoolAddress}}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
+</div>
