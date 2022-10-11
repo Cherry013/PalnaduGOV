@@ -32,7 +32,6 @@ export class LoginComponent implements OnInit {
             this.Router.navigate(['form']);
           }
           else{
-            console.log(data)
             this.errorMsg = true;
             this.error = "Passwords don't match";
           } 
@@ -43,7 +42,7 @@ export class LoginComponent implements OnInit {
             this.error = "User not found";
         }    
         else{
-          console.log(data);
+          return ;
         }
       }
     },(err)=>{

@@ -11,8 +11,13 @@
             </div>
         </div>
 
-
+        
         <div class="super-container">
+            <div class="alert alert-danger text-center " *ngIf="errorMsg">
+            <p class="alert-danger m-0 p-0">
+                {{error}}
+            </p>
+        </div>
             <div class="container">
                 <h1>Login</h1>
                 <div class="feild">
@@ -28,6 +33,7 @@
                     <label for="checkbox">Show password</label>
                 </div>
                 <input type="submit" (click)="login()" value="Login"><br>
+                
             </div>
         </div>
         
