@@ -3,7 +3,6 @@ const connection = require('../connection');
 const mysql = require('mysql2');
 const Router = express.Router();
 
-
 Router.post('/Details', (req, res) => {
     Details = req.body;
     SerialKeyQuery = `SELECT Mandal_Key FROM secretariatsconstituencymandalwise where SECRETARIAT_CODE = '${Details.SECRETARIAT_CODE}'`

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AccumulationChartModule } from '@syncfusion/ej2-angular-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
@@ -10,8 +9,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { TablesComponent } from './tables/tables.component';
 import { GetvaluesService } from './getvalues.service';
 import { HttpClientModule } from '@angular/common/http';
-import { ChartsCComponent } from './charts-c/charts-c.component';
-import { AccumulationAnnotationService, AccumulationDataLabelService, AccumulationLegendService, AccumulationTooltipService, PieSeriesService } from '@syncfusion/ej2-angular-charts';
 
 
 @NgModule({
@@ -19,17 +16,14 @@ import { AccumulationAnnotationService, AccumulationDataLabelService, Accumulati
     AppComponent,
     DashboraddComponent,
     SidebarComponent,
-    TablesComponent,
-    ChartsCComponent
+    TablesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    AccumulationChartModule
+    HttpClientModule
   ],
-  providers: [GetvaluesService,FormsModule, PieSeriesService, AccumulationLegendService, 
-    AccumulationTooltipService, AccumulationAnnotationService, AccumulationDataLabelService],
+  providers: [GetvaluesService,FormsModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
