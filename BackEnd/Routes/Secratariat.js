@@ -7,6 +7,9 @@ date = date = new Date();
 date = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
 console.log(date)
 //Secratariet 
+Router.get('/',(req,res)=>{
+    res.send("Connection Established")
+})
 Router.post('/Login', (req, res) => {
     Login = req.body;
     sql = `select * from secretariatsconstituencymandalwise where SECRETARIAT_CODE = ${Login.Username}`;
@@ -296,7 +299,7 @@ Router.post('/getdata/Mandal/PresisedBydate/', (req, res) => {
         });
     }
     else {
-        Prescribed = `select * from palnadudistict.workdetails left join palnadudistict.primarydetails on palnadudistict.workdetails.Connection_to_Work = palnadudistict.primarydetails.Connection_to_Work where Mandal_Key_work REGEXP '^${Target.Mandal}' and Type_of_Work = '${Target.Value}' and palnadudistict.primarydetails.Date = ${date}`;
+        Prescribed = `select * from palnadudistict.workdetails left join palnadudistict.primarydetails on palnadudistict.workdetails.Connection_to_Work = palnadudistict.primarydetails.Connection_to_Work where Mandal_Key_work REGEXP '^${Target.Mandal}' and Type_of_Work = '${Target.Value}' and palnadudistict.primarydetails.Date = '${date}'`;
         connection.query(Prescribed, (err, result) => {
             if (err) {
                 res.send(err);

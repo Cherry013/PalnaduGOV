@@ -46,6 +46,8 @@ export class DashboraddComponent implements OnInit {
       this.getvales.getPresisedvalues({ Value: Value, Mandal: this.childvariable }).subscribe((data: any) => {
         if (data) {
           this.items = data;
+          console.log(this.childvariable,Value);
+          console.log(data);
         } else {
           console.log("Error");
         }
@@ -54,6 +56,9 @@ export class DashboraddComponent implements OnInit {
     else {
       this.getvales.getPresisedvaluesBydate({ Value: Value, Mandal: this.childvariable }).subscribe((data: any) => {
         if (data) {
+          console.log(this.childvariable,Value);
+          console.log(data);
+          
           this.items = data;
         } else {
           console.log("Error");
